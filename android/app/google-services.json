@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "919211077531",
+    "project_id": "delulu-dating",
+    "storage_bucket": "delulu-dating.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919211077531:android:13b155372678a9be63bb3e",
+        "android_client_info": {
+          "package_name": "com.delulu.social"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919211077531-b1vf19npov3kcoai73in215ncrs031fl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.delulu.social",
+            "certificate_hash": "86a646ad6b6d6d7f41a2f331ad9825f6484ae4ea"
+          }
+        },
+        {
+          "client_id": "919211077531-hr3nra5mj01dhe025hsd08st2hd9hl3d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD63xq8diWHD2fVr79bcQPctx1rcj-4Jws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919211077531-hr3nra5mj01dhe025hsd08st2hd9hl3d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "919211077531-2n1envuspol225j13mpeoro08hhrpi9o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.delulu.social"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
