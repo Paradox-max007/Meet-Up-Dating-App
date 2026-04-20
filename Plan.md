@@ -1,9 +1,9 @@
 ```markdown
-# Meet-Up Dating App – Complete Project Plan
+# Delulu : Social Connections – Complete Project Plan
 
 ## 1. Executive Summary
 
-**Meet-Up** is a cross‑platform dating app (iOS & Android) that prioritises genuine connections through privacy‑first design, immersive discovery, and real‑time presence features. Key differentiators include:
+**Delulu** is a cross‑platform dating app (iOS & Android) that prioritises genuine connections through privacy‑first design, immersive discovery, and real‑time presence features. Key differentiators include:
 
 - **Strict photo privacy** – All user photos are fully blurred until a connection request is accepted. No subscription can unblur them early.
 - **Attention Seeker** – A haptic button in chat that makes the other user’s phone vibrate while held, creating a sense of physical presence after relationship maturity.
@@ -348,7 +348,7 @@ async function blurImage(inputBuffer) {
 
 ## 14. Conclusion
 
-The **Meet-Up** project is ambitious but achievable within 5 months by prioritising the core differentiators: strict photo privacy, attention seeker haptics, privacy‑preserving face verification, and a reel‑style discovery. The plan above provides a clear roadmap, from technical stack to database schema to week‑by‑week milestones. Post‑launch features (games, stickers) will keep users engaged while the team iterates on feedback.
+The **Delulu** project is ambitious but achievable within 5 months by prioritising the core differentiators: strict photo privacy, attention seeker haptics, privacy‑preserving face verification, and a reel‑style discovery. The plan above provides a clear roadmap, from technical stack to database schema to week‑by‑week milestones. Post‑launch features (games, stickers) will keep users engaged while the team iterates on feedback.
 
 --- 
 *Document version 1.0 – Last updated: April 2026*

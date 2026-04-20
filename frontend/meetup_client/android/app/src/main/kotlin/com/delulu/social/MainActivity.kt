@@ -1,4 +1,4 @@
-package com.example.meetup_client
+package com.delulu.social
 
 import io.flutter.embedding.android.FlutterActivity
 
