@@ -11,16 +11,16 @@ export class User {
   @Column()
   name: string;
 
-  @Column()
+  @Column({ nullable: true })
   age: number;
 
-  @Column()
+  @Column({ nullable: true })
   gender: string;
 
-  @Column('text', { array: true })
+  @Column('text', { array: true, nullable: true })
   interested_in: string[];
 
-  @Column('text', { array: true })
+  @Column('text', { array: true, nullable: true })
   interests: string[];
 
   @Column({ nullable: true })
@@ -28,6 +28,9 @@ export class User {
 
   @Column('text', { array: true, nullable: true })
   images: string[];
+
+  @Column('boolean', { array: true, nullable: true })
+  image_privacy_flags: boolean[];
 
   @Column({ nullable: true, unique: true })
   face_hash: string;

@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  static const String baseUrl = 'http://localhost:3000'; // Update for physical device
+  static const String baseUrl = 'http://192.168.100.2:3000'; // Computer's LAN IP for physical device
 
   String? _token;
 

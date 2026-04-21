@@ -8,6 +8,7 @@ import 'services/profile_service.dart';
 import 'features/auth/screens/splash_screen.dart';
 import 'features/auth/screens/login_screen.dart';
 import 'features/onboarding/screens/profile_setup_screen.dart';
+import 'features/discovery/screens/discovery_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -62,7 +63,7 @@ class DeluluApp extends StatelessWidget {
       routes: {
         '/login': (context) => const LoginScreen(),
         '/onboarding': (context) => const ProfileSetupScreen(),
-        '/home': (context) => const Scaffold(body: Center(child: Text('Home Screen'))),
+        '/home': (context) => const DiscoveryScreen(),
       },
     );
   }
